@@ -20,6 +20,7 @@ def verify():
     return "Hello world", 200
 
 
+
 @app.route('/', methods=['POST'])
 def webhook():
 	data = request.get_json()
